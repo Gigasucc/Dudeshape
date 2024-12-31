@@ -1,0 +1,57 @@
+.intro {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 100px;
+  background-color: #244d4d;
+}
+
+.intro_image {
+  display: block;
+  width: 411px;
+  height: 558px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.intro_text_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 38px;
+}
+.intro_slogan {
+  font-family: "Montserrat-Bold";
+  font-size: 56px;
+  color: white;
+}
+
+.intro_text {
+  width: 488px;
+  font-family: "DMSans-Regular";
+  font-size: 20px;
+  color: white;
+  line-height: 125%;
+}
+
+.intro_button {
+  display: grid;
+  place-items: center;
+  margin-top: 15px;
+  font-family: "DMSans-Regular";
+  font-size: 20px;
+  color: #244d4d;
+  cursor: pointer;
+  background-color: white;
+  border: none;
+  width: 172px;
+  height: 56px;
+  transition: text-color 0.4s;
+  transition: background-color 0.4s;
+  border: 1px solid white;
+}
+
+.intro_button:hover {
+  color: white;
+  background-color: transparent;
+}

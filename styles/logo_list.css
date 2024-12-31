@@ -1,0 +1,20 @@
+.logo_list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 6px;
+}
+
+.logo_list_heading {
+  font-family: "DMSans-Bold";
+  font-size: 32px;
+  color: #244d4d;
+}
+
+.logo_item_list {
+  list-style: none;
+  display: flex;
+  gap: 100px;
+  align-items: center;
+}

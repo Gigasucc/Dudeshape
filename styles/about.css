@@ -1,0 +1,69 @@
+.about {
+  display: grid;
+  grid-template-columns: 597px auto;
+  gap: 150px;
+  position: relative;
+  margin-bottom: 35px;
+}
+
+.background_square {
+  top: 26px;
+  width: 631px;
+  height: 586px;
+  background-color: #dee4e2;
+  position: absolute;
+  z-index: -1;
+}
+
+.about_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 32px;
+  color: #244d4d;
+}
+
+.about_text {
+  font-family: "DMSans-Regular";
+  font-size: 20px;
+  color: #444444;
+  line-height: 125%;
+}
+
+.about_text_area {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.about_list {
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.about_list_item {
+  display: grid;
+  grid-template-columns: 51px auto;
+  gap: 28px;
+}
+
+.about_list_item_textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.about_list_item_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  color: #244d4d;
+}
+
+.about_list_item_text {
+  font-family: "DMSans-Regular";
+  font-size: 20px;
+  color: #444444;
+  line-height: 126%;
+}

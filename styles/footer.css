@@ -1,0 +1,140 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 1440px;
+  height: 442px;
+  margin-top: 138px;
+  background-color: #305f64;
+  color: white;
+  font-size: 18px;
+  font-family: "DMSans-Regular";
+}
+
+.footer_container {
+  padding: 103px 133px 0 121px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.footer_nav_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 24px;
+}
+
+.footer_nav_menu_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+}
+
+.footer_sub_section_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+}
+
+.footer_social-links_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 20px;
+  margin-bottom: 22px;
+  margin-top: 24px;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer_description {
+  margin-right: 55px;
+  width: 308px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.footer_sub_section {
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.footer_sub_section_textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.footer_icons {
+  display: flex;
+  gap: 15px;
+}
+
+.footer_nav_menu_items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.menu_right_margin {
+  margin-right: 20px;
+}
+
+.footer_form_button {
+  background-color: transparent;
+  color: transparent;
+  border: none;
+  background-image: url(/images/icons/arrow-email.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.footer_email_section {
+  gap: 11px;
+  padding-left: 19px;
+  display: flex;
+  justify-content: space-between;
+  width: 253px;
+  height: 48px;
+  background-color: white;
+}
+
+.footer_form_email {
+  border: none;
+  background-color: transparent;
+}
+
+.footer_form_email::placeholder {
+  color: #859395;
+  font-family: "DMSans-Regular";
+  font-size: 16px;
+}
+
+.footer_form_email:focus {
+  outline: none;
+}
+
+.copyright {
+  font-family: "DMSans-Regular";
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.footer_copyright_section {
+  height: 83px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.footer_copyright_decoration_line {
+  width: 1440px;
+  height: 1px;
+  background-color: rgb(225 225 255/0.3);
+}

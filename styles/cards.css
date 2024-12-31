@@ -1,0 +1,147 @@
+.cards {
+  width: 1200px;
+}
+
+.cards_container_description {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.cards_main_description {
+  width: 820px;
+}
+
+.card_section_heading {
+  font-family: "Montserrat-Bold";
+  font-size: 32px;
+  color: #242424;
+}
+
+.card_section_text {
+  margin-top: 20px;
+  font-family: "DMSans-Regular";
+  font-size: 20px;
+  color: #383738;
+  line-height: 127%;
+}
+.card_slider_buttons {
+  display: flex;
+  gap: 16px;
+}
+
+.card_slider_button {
+  cursor: pointer;
+  border: none;
+  border-radius: 100%;
+  display: grid;
+  place-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #f4f6f6;
+}
+
+.slider_arrow {
+  transition: opacity 0.3s;
+}
+
+.card_slider_button:hover .slider_arrow {
+  opacity: 0.4;
+}
+
+.to_left {
+  transform: scaleX(-1);
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  box-shadow: 3px 30px 80px rgb(0 0 0/0.1);
+}
+
+.card_list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.card_description {
+  padding: 30px 24px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_textarea {
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+
+.card_heading {
+  font-family: "DMSans-Medium";
+  font-size: 20px;
+  color: #242424;
+}
+
+.card_price {
+  font-family: "DMSans-Medium";
+  font-size: 24px;
+  color: #154444;
+}
+
+.card_buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 21px;
+}
+
+.card_buy_button {
+  cursor: pointer;
+  color: white;
+  font-family: "DMSans-Medium";
+  font-size: 12px;
+  border: none;
+  background-color: #244d4d;
+  width: 79px;
+  height: 32px;
+  transition: text-color 0.4s;
+  transition: background-color 0.2s;
+  border: 1px solid #244d4d;
+}
+
+.card_buy_button:hover {
+  color: #244d4d;
+  background-color: transparent;
+}
+
+.card_buttons_functional {
+  display: flex;
+  gap: 8px;
+}
+
+.card_item_icon {
+  cursor: pointer;
+  width: 26px;
+  height: 26px;
+  border: none;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  background-color: #ecf4ff;
+  transition: background-color 0.3s;
+}
+
+.card_item_icon:hover {
+  background-color: #ef5423;
+}
+
+.item_symbol {
+  filter: brightness(100%);
+  transition: filter 0.3s;
+}
+
+.card_item_icon:hover .item_symbol {
+  filter: brightness(900%);
+}

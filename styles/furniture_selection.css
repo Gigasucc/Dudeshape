@@ -1,0 +1,128 @@
+.furniture_selection {
+  margin-bottom: -23px;
+  position: relative;
+}
+
+.furniture_selection_heading_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 28px;
+}
+
+.furniture_selection_heading {
+  font-family: "Montserrat-Bold";
+  color: #242424;
+  font-size: 32px;
+}
+
+.furniture_selection_list {
+  display: flex;
+  gap: 103px;
+  list-style: none;
+}
+
+.furniture_selection_option {
+  font-family: "DMSans-Medium";
+  color: #919090;
+  font-size: 24px;
+  transition: color 0.3s;
+}
+
+.furniture_selection_item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.underline_hidden {
+  position: absolute;
+  margin-top: 1px;
+  width: 0;
+  height: 2px;
+  background-color: #244d4d;
+  opacity: 0;
+  bottom: -3px;
+  left: 50%;
+  transition: all 0.5s ease;
+  transform: translate(-50%, 0);
+}
+
+.furniture_selection_option:hover + .underline_hidden {
+  opacity: 1;
+  width: 57px;
+  transition: all 0.5s ease;
+}
+
+.furniture_selection_option:hover {
+  color: #244d4d;
+}
+
+.furniture_selection_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  width: 222px;
+  height: 90px;
+  border: 1px solid #d9dce5;
+  transition: background-color 0.3s;
+}
+
+.furniture_selection_card:hover {
+  background-color: #154444;
+}
+
+.furniture_selection_card:hover .furniture_selection_card_desription {
+  color: white;
+}
+
+.furniture_selection_card:hover .furniture_selection_card_icon {
+  filter: brightness(300%);
+}
+
+.furniture_selection_card_desription {
+  transition: color 0.3s;
+  font-family: "DMSans-Medium";
+  color: #808080;
+  font-size: 16px;
+}
+
+.furniture_selection_card_icon {
+  transition: filter 0.3s;
+  filter: brightness(100%);
+}
+
+.furniture_selection_content {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.furniture_selection_cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  gap: 30px;
+}
+
+.background_furniture_square {
+  position: absolute;
+  width: 190px;
+  height: 86px;
+  background-color: #154444;
+  z-index: -1;
+}
+
+.square_top {
+  left: -10px;
+  top: 163px;
+}
+
+.square_bottom {
+  left: 372px;
+  top: 486px;
+}

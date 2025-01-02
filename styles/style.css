@@ -41,3 +41,14 @@ fieldset {
   gap: 140px;
   margin-top: 27px;
 }
+
+.block_invisable {
+  opacity: 0;
+  transform: translateY(100px); 
+  transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.visable {
+  opacity: 1; 
+  transform: translateY(0); 
+}

@@ -86,6 +86,7 @@
 }
 
 .footer_form_button {
+  cursor: pointer;
   background-color: transparent;
   color: transparent;
   border: none;
